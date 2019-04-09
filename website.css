@@ -1,0 +1,240 @@
+﻿/* Eric Biesiada, Website Development Project */
+/* Drysmian Band Website */
+@font-face {
+  font-family: 'PTSansCaption';
+  src: url('fonts/PTC55F-webfont.eot');
+  src: local('☺'), url('fonts/PTC55F-webfont.woff') format('woff'), url('fonts/PTC55F-webfont.ttf') format('truetype'), url('fonts/PTC55F-webfont.svg#webfontaMnF3Xb4') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  }
+article, aside, body, dd, div, dl, dt, figcaption, figure, footer, h1, h2, h3, h4, h5, h6, header, li, nav, ol, p, section, table, th, td, ul {
+  margin: 0;
+  padding: 0;
+  }
+article, aside, figure, figcaption, header, footer, nav, video {
+  display: block;
+  }
+body {
+  font-family: tahoma, verdana, arial, sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 60em;
+  background: #6e93c8;
+  background: url("images/2woods.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: -10;
+  }
+h1 {
+  text-align: center;
+  font-family: PTSansCaption, georgia, "times new roman", times, serif;
+  font-weight: normal;
+  display: block;
+  padding: 0;
+  padding-top: 1em;
+  margin: 0 auto;
+  font-size: 2em;
+  height: 6.75em;
+  width: 29.5em;
+  background: blue;
+  background: url("images/fence2.jpg");
+  -webkit-border-top-left-radius: 26px;
+  -webkit-border-top-right-radius: 26px;
+  -moz-border-radius-topright: 26px;
+  -moz-border-radius-topleft: 26px;
+  border-top-right-radius: 26px;
+  border-top-left-radius: 26px;
+  z-index: -5;
+  }
+h2 {
+  font-size: 1.5em;
+  color: red;
+  padding-bottom: 1.5em
+  }
+h3 {
+  color: white;
+  font-weight: normal;
+  }
+h4 {
+  font-weight: bold;
+  }
+nav {
+  font-size: 1.25em;
+  display: block;
+  padding-bottom: 0.5em;
+  z-index: 5;
+  }
+figcaption {
+  text-align: center;
+  margin: 0;
+  padding: 0 0 2em 0;
+  }
+li {
+  list-style-type: upper-roman;
+  }
+ul {
+  display: table;
+  padding: 1.5em;
+  margin-left: 24em;
+  margin-bottom: 2em;
+  z-index: 10;
+  }
+footer {
+  font-weight: bold;
+  color: white;
+  }
+#box {
+  border: 0.55em solid;
+  padding: 0;
+  margin: 0;
+  background: teal;
+  min-height: 50em;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  }
+#biotext {
+  border: 0.55em ridge;
+  color: white;
+  padding: 3em 2em 0.5em 2em;
+  margin: 1em 14em 4em 14em;
+  background: #6e93c8;
+  background: url("images/1woods.jpg");
+  }
+#contact {
+  text-align: right;
+  padding: 0.5em;
+  border-top: 0.25em solid;
+  margin: 0;
+  clear: right;
+  }
+#mainnav {
+  text-align: center;
+  padding: 0.75em;
+  border-bottom: 0.25em solid;
+  margin: 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  z-index: 5;
+  }
+#mainnav p::after {
+  content: url("images/spearicon1.png");
+  z-index: 5;
+  }
+#mainnav p::before {
+  content: url("images/spearicon2.png");
+  z-index: 5;
+  }
+#skipnav {
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 10px;
+  z-index: 15;
+  }
+#skipnav  a {
+  text-decoration: none;
+  }
+#callout {
+  font-weight: bold;
+  }
+#album {
+  color: white;
+  }
+.catalogue {
+  height: 36em;
+  width: 52em;
+  margin-left: 2em;
+  z-index: 10;
+  }
+.album span {
+  display: inline-table;
+  text-align: left;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: white;
+  padding: 0;
+  margin: 0;
+  }
+.row {
+  display: table-cell;
+  padding: 0.45em 1.15em 0.45em 1.65em;
+  margin: 0;
+  }
+.row div {
+  padding: 0.2em 0;
+  color: yellow;
+  }
+.center {
+  padding: 0;
+  margin: 0 auto;
+  }
+.center img {
+  display: block;
+  padding: 0 0 3em 0;
+  margin: 0 auto;
+  }
+.left {
+  display: inline;
+  margin: 0 0 0 4em;
+  padding: 0;
+  float: left;
+  }
+.right {
+  display: inline;
+  margin: 0 5em 0 0;
+  padding: 0;
+  float: right;
+  }
+a:link {
+  color: blue;
+  }
+a:visited {
+  color: purple;
+  }
+a:hover {
+  color: #E0FFFF;
+  }
+a:active {
+  color: #394D39;
+  }
+#skipnav a:link {
+  color: white;
+  }
+#skipnav a:visited {
+  color: white;
+  }
+#skipnav a:hover {
+  color: #ff9;
+  }
+#skipnav a:active {
+  color: white;
+  }
+#mainnav a:link {
+  color: #000080;
+  }
+#mainnav a:visited {
+  color: black;
+  }
+#mainnav a:hover {
+  color: red;
+  }
+#mainnav a:active {
+  color: #394D39;
+  }
+.catalogue a:link {
+  color: yellow;
+  }
+.catalogue a:visited {
+  color: purple;
+  }
+.catalogue a:hover {
+  color: #E0FFFF;
+  }
+.catalogue a:active {
+  color: #394D39;
+  }
